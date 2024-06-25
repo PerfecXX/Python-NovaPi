@@ -5,6 +5,6 @@ while not novapi.timer() == 10:
     print('Timer: ',novapi.timer())
 
 print("Timer end with ",novapi.timer()," second")
-
+novapi.reset_timer()
 
 
